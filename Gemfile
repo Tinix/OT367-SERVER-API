@@ -43,7 +43,7 @@ group :development, :test do
   gem 'factory_bot_rails', '~> 5.1', '>= 5.1.1' # https://rubygems.org/gems/factory_bot_rails
   gem 'pry-byebug', '~> 3.9', platform: :mri # https://rubygems.org/gems/pry-byebug
   gem 'pry-rails', '~> 0.3.9' # https://rubygems.org/gems/pry-rails
-  gem 'rspec-rails', '~> 4.1' # https://rubygems.org/gems/rspec-rails
+  gem 'rspec-rails', '~> 6.0' # https://rubygems.org/gems/rspec-rails
 end
 
 group :development do
