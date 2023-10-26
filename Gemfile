@@ -31,8 +31,10 @@ gem 'tzinfo-data', platforms: %i[windows jruby]
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', require: false
 
+gem 'discard' # https://rubygems.org/gems/discard
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
-# gem "image_processing", "~> 1.2"
+gem 'image_processing', '~> 1.2'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin Ajax possible
 # gem "rack-cors"
@@ -48,11 +50,12 @@ end
 
 group :development do
   gem 'annotate', '~> 3.0', '>= 3.0.3' # https://rubygems.org/gems/annotate
+  gem 'awesome_print', '~> 1.9'
   gem 'brakeman', '~> 5.1', '>= 5.1.2' # https://rubygems.org/gems/brakeman
   gem 'rails_best_practices', '~> 1.20' # https://rubygems.org/gems/rails_best_practices
-  gem 'rubocop', require: false # https://rubygems.org/gems/rubocop
   gem 'rubocop-performance', require: false # https://rubygems.org/gems/rubocop-performance
   gem 'rubocop-rails', require: false # https://rubygems.org/gems/rubocop-rails
+  gem 'rubocop', require: false # https://rubygems.org/gems/rubocop
   gem 'rubocop-rspec', require: false # https://rubygems.org/gems/rubocop-rspec
 end
 
@@ -61,3 +64,4 @@ group :test do
   gem 'shoulda-matchers', '~> 4.1', '>= 4.1.2' # https://rubygems.org/gems/shoulda-matchers
   gem 'simplecov', '~> 0.13.0', require: false # https://rubygems.org/gems/simplecov
 end
+
