@@ -14,7 +14,6 @@ gem 'discard' # https://rubygems.org/gems/discard
 gem 'dotenv-rails', '~> 2.8', '>= 2.8.1' # https://rubygems.org/gems/dotenv-rails
 gem 'image_processing', '~> 1.2'
 gem 'jsonapi-serializer', '~> 2.2' # https://rubygems.org/gems/jsonapi-serializer
-gem 'jsonapi-serializer', '~> 2.2' # https://rubygems.org/gems/jsonapi-serializer
 gem 'jwt', '~> 2.7', '>= 2.7.1' # https://rubygems.org/gems/jwt
 gem 'kaminari', '~> 1.2', '>= 1.2.2' # https://rubygems.org/gems/kaminari
 gem 'pg', '~> 1.1'
@@ -51,3 +50,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[windows jruby]
+
+gem 'docile', '~> 1.1'

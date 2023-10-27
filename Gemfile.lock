@@ -343,6 +343,7 @@ DEPENDENCIES
   brakeman (~> 5.1, >= 5.1.2)
   debug
   discard
+  docile (~> 1.1)
   dotenv-rails (~> 2.8, >= 2.8.1)
   factory_bot_rails (~> 5.1, >= 5.1.1)
   faker (~> 2.13)
