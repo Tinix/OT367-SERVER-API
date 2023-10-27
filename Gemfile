@@ -37,9 +37,9 @@ group :development do
   gem 'awesome_print', '~> 1.9'
   gem 'brakeman', '~> 5.1', '>= 5.1.2' # https://rubygems.org/gems/brakeman
   gem 'rails_best_practices', '~> 1.20' # https://rubygems.org/gems/rails_best_practices
+  gem 'rubocop', require: false # https://rubygems.org/gems/rubocop
   gem 'rubocop-performance', require: false # https://rubygems.org/gems/rubocop-performance
   gem 'rubocop-rails', require: false # https://rubygems.org/gems/rubocop-rails
-  gem 'rubocop', require: false # https://rubygems.org/gems/rubocop
   gem 'rubocop-rspec', require: false # https://rubygems.org/gems/rubocop-rspec
 end
 
@@ -51,4 +51,3 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[windows jruby]
-
