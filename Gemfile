@@ -45,7 +45,7 @@ end
 group :test do
   gem 'faker', '~> 2.13' # https://rubygems.org/gems/faker
   gem 'shoulda-matchers', '~> 4.1', '>= 4.1.2' # https://rubygems.org/gems/shoulda-matchers
-  gem 'simplecov', '~> 0.13.0', require: false # https://rubygems.org/gems/simplecov
+  gem 'simplecov', require: false # https://rubygems.org/gems/simplecov
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
