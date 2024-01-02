@@ -147,6 +147,22 @@
         "branches": {
         }
       },
+      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/controllers/category_controller.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
       "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/jobs/application_job.rb": {
         "lines": [
           null,
@@ -174,6 +190,14 @@
         "branches": {
         }
       },
+      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/announcement.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
       "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/application_record.rb": {
         "lines": [
           null,
@@ -187,6 +211,28 @@
       },
       "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/category.rb": {
         "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null,
+          null,
+          0,
           0,
           0
         ],
@@ -342,6 +388,6 @@
         }
       }
     },
-    "timestamp": 1704190585
+    "timestamp": 1704191835
   }
 }
