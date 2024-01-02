@@ -25,6 +25,29 @@
         "branches": {
         }
       },
+      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/controllers/api/v1/announcements_controller.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
       "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/controllers/api/v1/organizations_controller.rb": {
         "lines": [
           null,
@@ -192,6 +215,42 @@
       },
       "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/announcement.rb": {
         "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
           0,
           0
         ],
@@ -229,6 +288,9 @@
           null,
           null,
           0,
+          0,
+          null,
+          null,
           0,
           null,
           null,
@@ -313,6 +375,14 @@
         "branches": {
         }
       },
+      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/testimonial.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
       "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/user.rb": {
         "lines": [
           null,
@@ -388,6 +458,6 @@
         }
       }
     },
-    "timestamp": 1704191835
+    "timestamp": 1704192638
   }
 }
