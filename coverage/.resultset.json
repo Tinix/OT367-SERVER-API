@@ -1,93 +1,6 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/user.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/application_record.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          null
-        ]
-      },
-      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/role.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
       "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/channels/application_cable/channel.rb": {
         "lines": [
           null,
@@ -261,6 +174,25 @@
         "branches": {
         }
       },
+      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/application_record.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/category.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
       "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/organization.rb": {
         "lines": [
           null,
@@ -300,6 +232,88 @@
         "branches": {
         }
       },
+      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/role.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null,
+          null,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/user.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
       "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/serializers/role_serializer.rb": {
         "lines": [
           null,
@@ -328,6 +342,6 @@
         }
       }
     },
-    "timestamp": 1704164781
+    "timestamp": 1704190585
   }
 }
