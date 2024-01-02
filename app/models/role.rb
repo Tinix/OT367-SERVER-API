@@ -18,6 +18,10 @@
 class Role < ApplicationRecord
   include Discard::Model
 
+  # Associations
+  has_many :users, dependent: :destroy
+
+  # Validations
   validates :name, presence: true,
                    length: { minimum: 2 }
   validates :description, presence: true,
