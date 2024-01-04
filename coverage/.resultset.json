@@ -1,6 +1,48 @@
 {
   "RSpec": {
     "coverage": {
+      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/member.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/application_record.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
       "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/channels/application_cable/channel.rb": {
         "lines": [
           null,
@@ -38,6 +80,25 @@
           0,
           0,
           0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/controllers/api/v1/members_controller.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           0,
           0,
           0,
@@ -257,17 +318,6 @@
         "branches": {
         }
       },
-      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/application_record.rb": {
-        "lines": [
-          null,
-          null,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
       "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/category.rb": {
         "lines": [
           null,
@@ -377,6 +427,16 @@
       },
       "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/testimonial.rb": {
         "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           0,
           0
         ],
@@ -456,8 +516,30 @@
         ],
         "branches": {
         }
+      },
+      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/serializers/testimonial_serializer.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
       }
     },
-    "timestamp": 1704192638
+    "timestamp": 1704332481
   }
 }
