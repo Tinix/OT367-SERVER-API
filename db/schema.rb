@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_01_05_000208) do
+ActiveRecord::Schema[7.1].define(version: 2024_01_06_152217) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -97,6 +97,18 @@ ActiveRecord::Schema[7.1].define(version: 2024_01_05_000208) do
     t.index ["discarded_at"], name: "index_roles_on_discarded_at"
   end
 
+  create_table "slides", force: :cascade do |t|
+    t.text "text"
+    t.integer "order", null: false
+    t.bigint "organization_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.datetime "discarded_at"
+    t.index ["discarded_at"], name: "index_slides_on_discarded_at"
+    t.index ["organization_id", "order"], name: "index_slides_on_organization_id_and_order", unique: true
+    t.index ["organization_id"], name: "index_slides_on_organization_id"
+  end
+
   create_table "testimonials", force: :cascade do |t|
     t.string "name"
     t.text "content"
@@ -121,5 +133,6 @@ ActiveRecord::Schema[7.1].define(version: 2024_01_05_000208) do
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
   add_foreign_key "active_storage_variant_records", "active_storage_blobs", column: "blob_id"
   add_foreign_key "announcements", "categories"
+  add_foreign_key "slides", "organizations"
   add_foreign_key "users", "roles"
 end
