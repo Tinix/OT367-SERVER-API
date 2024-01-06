@@ -2,15 +2,14 @@
 
 #
 # roles_controller.rb
-# Copyright (C) 2023 tinix <tinix@debian>
+# Copyright (C) 2023 Daniel Tinivella <tinix@debian>
 #
 # Distributed under terms of the MIT license.
 #
 module Api
   module V1
     class RolesController < ApplicationController
-    before_action :set_role, only: i%[show update destroy]
-      
+      before_action :set_role, only: %i[show update destroy]
       # GET /roles
       def index
         @roles = Role.kept
