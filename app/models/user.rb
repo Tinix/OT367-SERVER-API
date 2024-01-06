@@ -1,16 +1,18 @@
+# frozen_string_literal: true
+
 # == Schema Information
 #
 # Table name: users
 #
-#  id           :bigint           not null, primary key
-#  discarded_at :datetime
-#  email        :string           not null
-#  first_name   :string           not null
-#  last_name    :string           not null
-#  password     :string           not null
-#  created_at   :datetime         not null
-#  updated_at   :datetime         not null
-#  role_id      :bigint           not null
+#  id              :bigint           not null, primary key
+#  discarded_at    :datetime
+#  email           :string           not null
+#  first_name      :string           not null
+#  last_name       :string           not null
+#  password_digest :string           not null
+#  created_at      :datetime         not null
+#  updated_at      :datetime         not null
+#  role_id         :bigint           not null
 #
 # Indexes
 #
@@ -23,6 +25,9 @@
 #  fk_rails_...  (role_id => roles.id)
 #
 class User < ApplicationRecord
+  # Secure password with BCrypt
+  has_secure_password
+
   include Discard::Model
 
   # Associations

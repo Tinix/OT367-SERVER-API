@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # == Schema Information
 #
 # Table name: members
@@ -17,8 +19,6 @@
 #  index_members_on_discarded_at  (discarded_at)
 #
 FactoryBot.define do
-
-
   factory :member do
     name { Faker::Name.name }
     description { Faker::Lorem.paragraph }
@@ -27,6 +27,3 @@ FactoryBot.define do
     instagram_url { Faker::Internet.url(host: 'instagram.com') }
   end
 end
-
-
-

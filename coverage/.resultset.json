@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/member.rb": {
+      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/user.rb": {
         "lines": [
           null,
           null,
@@ -23,12 +23,29 @@
           null,
           null,
           null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           1,
+          null,
           1,
           null,
           1,
           null,
           null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
           1,
           1,
           null
@@ -40,6 +57,79 @@
           null,
           1,
           1,
+          null
+        ]
+      },
+      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/controllers/api/v1/users_controller.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          6,
+          null,
+          6,
+          0,
+          null,
+          6,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          6,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/controllers/application_controller.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/role.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
           null
         ]
       },
@@ -201,36 +291,6 @@
         "branches": {
         }
       },
-      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/controllers/api/v1/users_controller.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/controllers/application_controller.rb": {
-        "lines": [
-          null,
-          null,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
       "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/controllers/category_controller.rb": {
         "lines": [
           null,
@@ -351,6 +411,41 @@
         "branches": {
         }
       },
+      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/member.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
       "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/organization.rb": {
         "lines": [
           null,
@@ -390,41 +485,6 @@
         "branches": {
         }
       },
-      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/role.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          0,
-          0,
-          null,
-          null,
-          0,
-          null,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
       "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/testimonial.rb": {
         "lines": [
           null,
@@ -437,53 +497,8 @@
           null,
           null,
           null,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/home/tinix/workspace-rails/RESTful-Apis/OT367-SERVER/app/models/user.rb": {
-        "lines": [
           null,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          0,
-          0,
-          null,
-          null,
-          0,
-          0,
-          null,
-          null,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
           0,
           0
         ],
@@ -540,6 +555,6 @@
         }
       }
     },
-    "timestamp": 1704332481
+    "timestamp": 1704420688
   }
 }

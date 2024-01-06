@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # == Schema Information
 #
 # Table name: testimonials
@@ -10,7 +12,7 @@
 #
 FactoryBot.define do
   factory :testimonial do
-    name { "MyString" }
-    content { "MyText" }
+    name { 'MyString' }
+    content { 'MyText' }
   end
 end
