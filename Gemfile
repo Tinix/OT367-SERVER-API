@@ -11,6 +11,7 @@ gem 'aws-sdk-s3', '~> 1.136' # https://rubygems.org/gems/aws-sdk-s3
 gem 'bcrypt', '~> 3.1', '>= 3.1.19' # https://rubygems.org/gems/bcrypt
 gem 'bootsnap', require: false
 gem 'discard' # https://rubygems.org/gems/discard
+gem 'docile', '~> 1.1'
 gem 'dotenv-rails', '~> 2.8', '>= 2.8.1' # https://rubygems.org/gems/dotenv-rails
 gem 'image_processing', '~> 1.2'
 gem 'jsonapi-serializer', '~> 2.2' # https://rubygems.org/gems/jsonapi-serializer
@@ -23,7 +24,6 @@ gem 'puma', '>= 5.0'
 # gem "rack-cors"
 
 group :development, :test do
-  # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem 'debug', platforms: %i[mri windows]
   gem 'factory_bot_rails', '~> 5.1', '>= 5.1.1' # https://rubygems.org/gems/factory_bot_rails
   gem 'pry-byebug', '~> 3.9', platform: :mri # https://rubygems.org/gems/pry-byebug
@@ -51,4 +51,3 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[windows jruby]
 
-gem 'docile', '~> 1.1'
