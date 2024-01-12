@@ -10,9 +10,7 @@ Rails.application.routes.draw do
   namespace :api, defaults: { format: :json } do
     namespace :v1 do
       post 'auth/register', to: 'users#create'
+      post 'auth/login', to: 'auth#create'
     end
   end
-
-  # Defines the root path route ("/")
-  # root "posts#index"
 end
