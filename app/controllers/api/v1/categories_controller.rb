@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 y frozen_string_literal: true
 
 #
