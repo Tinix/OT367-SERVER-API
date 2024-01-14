@@ -31,7 +31,7 @@ module Api
 
       def user
         @user = User.find_by(email: params.require(:email))
-        render json: { error: 'Usuario no encontrado' }, status: :not_found unless @user
+        render json: { error: 'User not found' }, status: :not_found unless @user
       end
 
       def serialize_user
